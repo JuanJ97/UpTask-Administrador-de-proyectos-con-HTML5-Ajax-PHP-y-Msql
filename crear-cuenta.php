@@ -1,5 +1,6 @@
 <?php 
 include 'inc/funciones/funciones.php';
+include 'inc/funciones/conexion.php';
 include 'inc/templates/header.php';
 ?>
     <div class="contenedor-formulario">
@@ -22,6 +23,6 @@ include 'inc/templates/header.php';
             </div>
         </form>
     </div>
-    <script src="js/sweetalert2.all.min.js"></script>
-</body>
-</html>
+<?php 
+include 'inc/templates/footer.php';
+?>

@@ -1,5 +1,6 @@
 <?php 
 include 'inc/funciones/funciones.php';
+include 'inc/funciones/conexion.php';
 include 'inc/templates/header.php';
 ?>
 <div class="barra">
@@ -53,7 +54,7 @@ include 'inc/templates/header.php';
         <div class="listado-pendientes">
             <ul>
 
-                <li id="tarea:<?php echo $tarea['id'] ?>" class="tarea">
+                <li id="tarea:" class="tarea">
                 <p>Cambiar el Logotipo</p>
                     <div class="acciones">
                         <i class="far fa-check-circle"></i>
@@ -64,10 +65,6 @@ include 'inc/templates/header.php';
         </div>
     </main>
 </div><!--.contenedor-->
-
-
-<script src="js/sweetalert2.all.min.js"></script>
-
-
-</body>
-</html>
+<?php 
+include 'inc/templates/footer.php';
+?>
